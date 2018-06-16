@@ -1,0 +1,44 @@
+a{
+    color:#085AA5;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #f2cb1b 1px, #f2cb1b 2px, rgba(0, 0, 0, 0) 2px);
+    transition: all .8s ease-in-out 0s;
+    &.active{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #085AA5 1px, #085AA5 2px, rgba(0, 0, 0, 0) 2px);
+        transition: all .8s ease-in-out 0s;
+    }
+    
+}
+blockquote{
+    border-left:0.54375rem solid #085AA5
+}
+.clear{
+    clear:both;
+}
+.team{
+    img{
+        float:left;
+        padding-right:2rem;
+    }
+}
+
+.testimonial{
+    font-style: normal;
+    // border-bottom: 1px solid #085AA5;
+    margin-top:2rem; 
+    clear:both;
+    > p{        
+        border-bottom: 2px solid #085AA5;
+        padding-bottom:1rem;
+    }
+    .author{
+        text-align: right;        
+        padding-bottom:1rem;
+    }
+}
+
+.ourServices{
+    > ul{
+        width:47%;
+        float:left;
+    }
+}
